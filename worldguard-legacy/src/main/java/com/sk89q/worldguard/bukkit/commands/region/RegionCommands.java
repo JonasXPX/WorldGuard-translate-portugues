@@ -133,7 +133,7 @@ public final class RegionCommands extends RegionCommandsBase {
 
         AsyncCommandHelper.wrap(future, plugin, player)
                 .formatUsing(id)
-                .registerWithSupervisor("Adding the region '%s'...")
+                .registerWithSupervisor("Adicionado a região '%s'...")
                 .sendMessageAfterDelay("(Please wait... adding '%s'...)")
                 .thenRespondWith(
                         "A new region has been made named '%s'.",
